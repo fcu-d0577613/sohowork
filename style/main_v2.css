@@ -359,6 +359,11 @@ body::after {
     padding: 0;
   }
 }
+@media screen and (max-width: 450px) {
+  #home > .container > .home_subtitle {
+    font-size: 17px;
+  }
+}
 .shawnReel_dividers {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -575,7 +580,11 @@ body::after {
 .fxrightin .fxcontent {
   height: auto;
   margin-bottom: 15px;
+  margin-top: -27px;
   color: rgb(185, 185, 185);
+}
+.fxrightin ul {
+  padding: 0 20px;
 }
 
 @media screen and (max-width: 1150px) {
@@ -587,6 +596,9 @@ body::after {
   #fx .fxrightin {
     max-width: 100%;
     padding-left: 0px;
+  }
+  #fx .fxrightin h4 {
+    text-align: center;
   }
 }
 #comp {
@@ -619,7 +631,7 @@ body::after {
   .fxleft {
     width: 100%;
     justify-content: center;
-    padding: 300px 0 38px 0;
+    padding: 400px 0 38px 0;
   }
   .fxright {
     width: 100%;
@@ -635,6 +647,7 @@ body::after {
   }
   .fxbg {
     right: 0;
+    height: 900px;
   }
   .fximg {
     width: 70%;
@@ -649,7 +662,9 @@ body::after {
   }
   .fxrightin .fxcontent {
     margin: 0 auto;
-    text-align: left;
+  }
+  ul {
+    list-style: none;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1246,4 +1261,5 @@ body::after {
 #shawnReel_footer > .container p {
   margin: 10px;
   color: rgba(255, 255, 255, 0.8);
+  text-align: center;
 }/*# sourceMappingURL=main_v2.css.map */
